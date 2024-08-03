@@ -20,5 +20,8 @@ Follow these instructions to set up and run the project on your local machine.
 git clone git@github.com:RuchiLamichhane/Python_Deploy.git
 cd Python_Deploy
 
+docker build -t pycal .
+docker run -p 5000:5000 pycal:latest
+
 
 
