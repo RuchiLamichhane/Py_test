@@ -17,7 +17,7 @@ Follow these instructions to set up and run the project on your local machine.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/flask-calculator.git
+git clone git@github.com:RuchiLamichhane/Python_Deploy.git
 cd Python_Deploy
 
 
