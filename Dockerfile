@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install dependencies
-RUN pip install flask
+RUN pip install -r requirements.txt
 
 # Expose the Flask app port
 EXPOSE 5000
